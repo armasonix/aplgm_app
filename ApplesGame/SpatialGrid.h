@@ -18,7 +18,7 @@ public:
     // ѕолна€ перестройка по всем активным €блокам
     void rebuild(const std::vector<std::unique_ptr<Apple>>& apples);
 
-    // »нкрементальные операции (часто): вставка/удаление/перемещение одного €блока
+    // »нкрементальные операции вставка/удаление/перемещение одного €блока
     void insert(int appleIndex, const sf::Vector2f& pos);
     void erase(int appleIndex, const sf::Vector2f& pos);
     void move(int appleIndex, const sf::Vector2f& oldPos, const sf::Vector2f& newPos);
